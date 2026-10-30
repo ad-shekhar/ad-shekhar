@@ -91,15 +91,7 @@ Exploring how specialized agents and connected systems can help teams understand
 
 `Agentic Systems` `LangGraph` `MCP` `FastAPI`
 
-### 🛠️ [DevNexus](https://github.com/ad-shekhar)
-
-**Agentic SDLC automation.**
-
-Exploring AI-assisted workflows across software development and delivery, with an emphasis on practical automation and developer productivity.
-
-`FastAPI` `Docker` `React` `Agent Workflows`
-
-### 💸 CashWise.AI
+### 💸 [CashWise.AI](https://github.com/ad-shekhar/cashwaise.AI)
 
 **Personal finance intelligence platform.**
 
@@ -141,10 +133,22 @@ Code is a big part of what I do, but not the whole story.
 ## `github.telemetry` 📊
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ad-shekhar&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&include_all_commits=true" alt="Aditya's GitHub statistics" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ad-shekhar&theme=tokyonight&hide_border=true" alt="Aditya's GitHub contribution streak" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ad-shekhar&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"
+    alt="GitHub profile statistics"
+    height="165"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=ad-shekhar&theme=tokyonight&hide_border=true"
+    alt="GitHub contribution streak"
+    height="165"
+  />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ad-shekhar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used programming languages" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ad-shekhar&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"
+    alt="Most used programming languages"
+    height="165"
+  />
 </div>
 
 ---
