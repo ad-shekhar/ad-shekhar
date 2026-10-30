@@ -20,23 +20,53 @@
 
 ---
 
-##`whoami`![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
+<h2>
+  <code>whoami</code>
+  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
+       width="32"
+       alt="Animated waving hand" />
+</h2>
 
 I'm **Aditya Shekhar**, a Software Engineer interested in the systems behind great products: backend services, platform engineering, cloud infrastructure, distributed systems, and practical AI.
 
 I've worked on software engineering and automation in industry environments, including **Jaguar Land Rover** and **Nemetschek Group**. I enjoy digging into how things work under the hood—from clean APIs and reliable services to CI/CD workflows, observability, and agentic systems.
 
-I learn best by building. My current focus is becoming a stronger backend/platform engineer while creating useful projects that combine solid engineering with emerging technology.
+<p>
+  I learn best by building. My focus is on engineering reliable systems,
+  understanding infrastructure deeply, and turning emerging technologies
+  into useful software.
+</p>
 
-```text
-aditya@github:~$ cat focus.txt
+<table>
+  <tr>
+    <td width="50%">
+      <strong>⚙️ Backend Engineering</strong><br/>
+      <img src="https://img.shields.io/badge/STATUS-BUILDING-00D4FF?style=flat-square" />
+      <br/><sub>APIs · Services · System Architecture</sub>
+    </td>
+    <td width="50%">
+      <strong>☁️ Platform & Cloud</strong><br/>
+      <img src="https://img.shields.io/badge/STATUS-EXPLORING-123B5D?style=flat-square" />
+      <br/><sub>AWS · Linux · CI/CD · Infrastructure</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>🌐 Distributed Systems</strong><br/>
+      <img src="https://img.shields.io/badge/STATUS-LEARNING-8957E5?style=flat-square" />
+      <br/><sub>Networking · Reliability · Observability</sub>
+    </td>
+    <td width="50%">
+      <strong>🧠 Applied AI & Agents</strong><br/>
+      <img src="https://img.shields.io/badge/STATUS-BUILDING-00C853?style=flat-square" />
+      <br/><sub>LLMs · LangGraph · MCP · RAG</sub>
+    </td>
+  </tr>
+</table>
 
-Backend Engineering       ██████████  Building
-Platform & Cloud          ████████░░  Exploring
-Distributed Systems       ███████░░░  Learning
-Applied AI & Agents       ████████░░  Building
-Photography & Creativity  █████████░  Always on
-```
+<p align="center">
+  <sub>Beyond engineering — 📸 Photography · 🎬 Visual storytelling · 🍳 Cooking</sub>
+</p>
 
 ## `now` 🚀
 
