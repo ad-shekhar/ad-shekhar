@@ -134,22 +134,22 @@ Code is a big part of what I do, but not the whole story.
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=ad-shekhar&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"
-    alt="GitHub profile statistics"
-    height="165"
-  />
-  <img
     src="https://streak-stats.demolab.com?user=ad-shekhar&theme=tokyonight&hide_border=true"
-    alt="GitHub contribution streak"
-    height="165"
+    alt="Aditya's GitHub contribution streak"
+    width="70%"
   />
-  <br />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ad-shekhar&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"
-    alt="Most used programming languages"
-    height="165"
-  />
+
+  <p>
+    <a href="https://github.com/ad-shekhar?tab=overview">
+      <img src="https://img.shields.io/badge/View-GitHub%20Activity-161B22?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub activity" />
+    </a>
+    <a href="https://github.com/ad-shekhar?tab=repositories">
+      <img src="https://img.shields.io/badge/Explore-Repositories-123B5D?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
+    </a>
+  </p>
 </div>
+
+<sub>GitHub's native contribution graph and activity feed appear below this profile README. The streak card is an optional third-party visualization; if its service is unavailable, the links above still work.</sub>
 
 ---
 
