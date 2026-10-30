@@ -4,7 +4,9 @@ name: Update GitHub Contributions
 on:
   schedule:
     - cron: "17 */6 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
@@ -22,13 +24,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution card
+      - name: Generate contribution card and update README
         env:
           GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: |
           python - <<'PY'
           import json
           import os
+          import re
           import urllib.request
           from datetime import datetime, timezone
           from pathlib import Path
@@ -79,6 +82,7 @@ jobs:
                   )
 
               user = result.get("data", {}).get("user")
+
               if not user:
                   raise RuntimeError("GitHub user not found")
 
@@ -86,7 +90,7 @@ jobs:
                   "contributionCalendar"
               ]["totalContributions"]
 
-          # Fetch every calendar year from 2023 through the current year.
+          # Calculate combined yearly contributions from 2023 onward.
           current_year = datetime.now(timezone.utc).year
           yearly_totals = {}
 
@@ -96,15 +100,21 @@ jobs:
           total = sum(yearly_totals.values())
 
           print("\nYEARLY CONTRIBUTION BREAKDOWN")
+
           for year, count in yearly_totals.items():
               print(f"{year}: {count}")
 
-          print(f"\nALL-TIME CONTRIBUTIONS SINCE 2023: {total}")
+          print(f"\nTOTAL CONTRIBUTIONS SINCE 2023: {total}")
 
-          updated = datetime.now(timezone.utc).strftime(
+          # Generate a unique version for cache busting.
+          updated = datetime.now(timezone.utc)
+          version = int(updated.timestamp())
+
+          updated_text = updated.strftime(
               "%d %b %Y, %H:%M UTC"
           )
 
+          # Generate SVG.
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
           width="700" height="180" viewBox="0 0 700 180">
             <rect width="700" height="180" rx="18" fill="#0B1020"/>
@@ -128,23 +138,68 @@ jobs:
             <text x="350" y="166" fill="#8B949E"
                   font-family="Arial" font-size="10"
                   text-anchor="middle">
-              Last updated: {escape(updated)}
+              Last updated: {escape(updated_text)}
             </text>
           </svg>'''
 
-          path = Path("assets/total-contributions.svg")
-          path.parent.mkdir(parents=True, exist_ok=True)
-          path.write_text(svg, encoding="utf-8")
+          svg_path = Path("assets/total-contributions.svg")
+          svg_path.parent.mkdir(parents=True, exist_ok=True)
+          svg_path.write_text(svg, encoding="utf-8")
 
-          print(f"\nSuccessfully generated card: {total:,}")
+          print(f"\nSVG generated successfully: {total:,}")
+
+          # Update README image URL to invalidate cached images.
+          readme_path = Path("README.md")
+
+          if not readme_path.exists():
+              raise RuntimeError("README.md not found")
+
+          readme = readme_path.read_text(encoding="utf-8")
+
+          image_pattern = (
+              r'https://raw\.githubusercontent\.com/'
+              r'ad-shekhar/ad-shekhar/main/assets/'
+              r'total-contributions\.svg(?:\?v=[^"\'\s)]*)?'
+              r'|'
+              r'\./assets/total-contributions\.svg(?:\?v=[^"\'\s)]*)?'
+          )
+
+          replacement = (
+              "https://raw.githubusercontent.com/"
+              "ad-shekhar/ad-shekhar/main/assets/"
+              f"total-contributions.svg?v={version}"
+          )
+
+          readme, replacements = re.subn(
+              image_pattern,
+              lambda match: replacement,
+              readme
+          )
+
+          if replacements != 1:
+              raise RuntimeError(
+                  f"Expected exactly one contribution image in README, "
+                  f"found {replacements}. README was not updated."
+              )
+
+          readme_path.write_text(readme, encoding="utf-8")
+
+          print("README image URL updated successfully.")
+          print(f"Cache-busting version: {version}")
+          print(f"Final contribution total: {total:,}")
+
           PY
 
-      - name: Commit updated card
+      - name: Commit updated contribution card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/total-contributions.svg
-          git diff --cached --quiet || (
+
+          git add assets/total-contributions.svg README.md
+
+          if ! git diff --cached --quiet; then
             git commit -m "chore: update GitHub contribution statistics"
             git push
-          )
+          else
+            echo "No changes to commit."
+          fi
