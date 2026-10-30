@@ -163,23 +163,36 @@ Code is a big part of what I do, but not the whole story.
 ## `github.telemetry` 📊
 
 <div align="center">
+
+  <!-- GitHub contribution and commit statistics -->
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ad-shekhar&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=tokyonight&hide_border=true&cache_seconds=86400"
+    alt="Aditya's dynamic GitHub statistics"
+    width="70%"
+  />
+
+  <br/>
+
+  <!-- Contribution streak -->
   <img
     src="https://streak-stats.demolab.com?user=ad-shekhar&theme=tokyonight&hide_border=true"
     alt="Aditya's GitHub contribution streak"
     width="70%"
   />
 
-  <p>
-    <a href="https://github.com/ad-shekhar?tab=overview">
-      <img src="https://img.shields.io/badge/View-GitHub%20Activity-161B22?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub activity" />
-    </a>
-    <a href="https://github.com/ad-shekhar?tab=repositories">
-      <img src="https://img.shields.io/badge/Explore-Repositories-123B5D?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
-    </a>
-  </p>
+  <br/>
+
+  <a href="https://github.com/ad-shekhar?tab=overview">
+    <img src="https://img.shields.io/badge/View-GitHub%20Activity-161B22?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub activity" />
+  </a>
+
+  <a href="https://github.com/ad-shekhar?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-Repositories-123B5D?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
+  </a>
+
 </div>
 
-<sub>GitHub's native contribution graph and activity feed appear below this profile README. The streak card is an optional third-party visualization; if its service is unavailable, the links above still work.</sub>
+<sub>Statistics are fetched dynamically from GitHub through a third-party service. Counts may be cached and may not include every private or organization contribution.</sub>
 
 ---
 
