@@ -164,23 +164,14 @@ Code is a big part of what I do, but not the whole story.
 
 <div align="center">
 
-  <!-- GitHub contribution and commit statistics -->
+  <!-- Dynamically generated using GitHub Actions + GitHub GraphQL API -->
   <img
-    src="https://github-readme-stats.vercel.app/api?username=ad-shekhar&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=tokyonight&hide_border=true&cache_seconds=86400"
-    alt="Aditya's dynamic GitHub statistics"
-    width="70%"
+    src="./assets/total-contributions.svg"
+    alt="Aditya Shekhar - Total GitHub Contributions"
+    width="75%"
   />
 
-  <br/>
-
-  <!-- Contribution streak -->
-  <img
-    src="https://streak-stats.demolab.com?user=ad-shekhar&theme=tokyonight&hide_border=true"
-    alt="Aditya's GitHub contribution streak"
-    width="70%"
-  />
-
-  <br/>
+  <br/><br/>
 
   <a href="https://github.com/ad-shekhar?tab=overview">
     <img src="https://img.shields.io/badge/View-GitHub%20Activity-161B22?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub activity" />
@@ -192,7 +183,7 @@ Code is a big part of what I do, but not the whole story.
 
 </div>
 
-<sub>Statistics are fetched dynamically from GitHub through a third-party service. Counts may be cached and may not include every private or organization contribution.</sub>
+<sub>Total Contributions represents GitHub's official contribution calendar count, including qualifying contributions across commits, issues, pull requests, and reviews. Automatically refreshed every 6 hours through GitHub Actions.</sub>
 
 ---
 
