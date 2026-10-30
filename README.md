@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:123B5D,100:00D4FF&height=220&section=header&text=ADITYA%20SHEKHAR&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Backend%20%7C%20Platform%20%7C%20Cloud%20%7C%20AI%20Systems&descAlignY=60&descSize=16" width="100%" alt="Aditya Shekhar profile banner" />
 
   <a href="https://www.linkedin.com/in/aditya-shekhar-662a55311/">
@@ -166,7 +166,7 @@ Code is a big part of what I do, but not the whole story.
 
   <!-- Dynamically generated using GitHub Actions + GitHub GraphQL API -->
   <img
-    src="./assets/total-contributions.svg"
+    src="https://raw.githubusercontent.com/ad-shekhar/ad-shekhar/main/assets/total-contributions.svg?v=2"
     alt="Aditya Shekhar - Total GitHub Contributions"
     width="75%"
   />
