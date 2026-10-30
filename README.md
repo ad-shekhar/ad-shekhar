@@ -1,16 +1,187 @@
-## Hi there 👋
+::: {align="center"}
+`<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:123B5D,100:00D4FF&height=220&section=header&text=ADITYA%20SHEKHAR&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Backend%20%7C%20Platform%20%7C%20Cloud%20%7C%20AI%20Systems&descAlignY=60&descSize=16" width="100%" alt="Aditya Shekhar profile banner" />`{=html}
 
-<!--
-**ad-shekhar/ad-shekhar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+`<a href="https://www.linkedin.com/in/aditya-shekhar-662a55311/">`{=html}`<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />`{=html}`</a>`{=html}
+`<a href="https://github.com/ad-shekhar">`{=html}`<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />`{=html}`</a>`{=html}
+`<a href="mailto:aditya.shekhar.2611@gmail.com">`{=html}`<img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />`{=html}`</a>`{=html}
 
-Here are some ideas to get you started:
+`<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=720&lines=Building+reliable+systems%2C+not+just+features.;Exploring+the+intersection+of+Cloud+%2B+AI.;Turning+complex+engineering+problems+into+working+software." alt="Typing introduction" />`{=html}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*Software Engineer · Bengaluru, India · Curious by default*
+:::
+
+------------------------------------------------------------------------
+
+## `whoami` 👋
+
+I'm **Aditya Shekhar**, a Software Engineer interested in the systems
+behind great products: backend services, platform engineering, cloud
+infrastructure, distributed systems, and practical AI.
+
+I've worked on software engineering and automation in industry
+environments, including **Jaguar Land Rover** and **Nemetschek Group**.
+I enjoy digging into how things work under the hood---from clean APIs
+and reliable services to CI/CD workflows, observability, and agentic
+systems.
+
+I learn best by building. My current focus is becoming a stronger
+backend/platform engineer while creating useful projects that combine
+solid engineering with emerging technology.
+
+``` text
+aditya@github:~$ cat focus.txt
+
+Backend Engineering       ██████████  Building
+Platform & Cloud           ████████░░  Exploring
+Distributed Systems        ███████░░░  Learning
+Applied AI & Agents        ████████░░  Building
+Photography & Creativity   █████████░  Always on
+```
+
+## `now` 🚀
+
+  ----------------------------------- -------------------------------------------------------------------
+  📍 **Location**                     Bengaluru, India
+
+  💼 **Work**                         Associate Software Engineer --- Nemetschek Group
+
+  🔭 **Building**                     [Agentic
+                                      Diligence](https://github.com/ad-shekhar/agentic-diligence)
+
+  🧠 **Learning**                     System Design, AWS, Networking, Platform Engineering
+
+  🤝 **Open to**                      Open-source collaboration, backend/platform projects, developer
+                                      tools, and practical AI systems
+
+  📫 **Reach me**                     [Email](mailto:aditya.shekhar.2611@gmail.com) ·
+                                      [LinkedIn](https://www.linkedin.com/in/aditya-shekhar-662a55311/)
+  ----------------------------------- -------------------------------------------------------------------
+
+## `engineering.stack` 🧰
+
+::: {align="center"}
+**Languages**
+
+`<img src="https://skillicons.dev/icons?i=java,python,cpp,js&theme=dark" alt="Java, Python, C++, JavaScript" />`{=html}
+
+**Backend, APIs & Frontend**
+
+`<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,react,nextjs&theme=dark" alt="Node.js, Express, FastAPI, React, Next.js" />`{=html}
+
+**Data & Infrastructure**
+
+`<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,docker,aws,linux,bash&theme=dark" alt="PostgreSQL, MySQL, MongoDB, SQLite, Docker, AWS, Linux, Bash" />`{=html}
+
+**Engineering Workflow & AI**
+
+`<img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,figma&theme=dark" alt="Git, GitHub, GitLab, VS Code, Figma" />`{=html}
+:::
+
+**Also exploring:** OpenTelemetry · LangChain · LangGraph · MCP · CI/CD
+· REST APIs · Microservices · Qdrant · RAG
+
+## `selected.builds` ⚡
+
+### 🔎 [Agentic Diligence](https://github.com/ad-shekhar/agentic-diligence)
+
+**Evidence-first technical diligence for AI agents.**
+
+Building a platform that evaluates agent-runtime claims against
+available evidence---connecting traces, tasks, metrics, verification
+verdicts, and reproducible reports.
+
+*Don't trust the claim; verify what the evidence supports.*
+
+`Python` · `OpenTelemetry` · `OTLP` · `Evidence Provenance` ·
+`AI Agents`
+
+### 🧠 CompanyOS
+
+**An organizational intelligence and execution layer.**
+
+Exploring how specialized agents and connected systems can help teams
+understand operational activity, coordinate workflows, surface risks,
+and maintain organizational context.
+
+`Agentic Systems` · `LangGraph` · `MCP` · `FastAPI`
+
+### 🛠️ DevNexus
+
+**Agentic SDLC automation.**
+
+Exploring AI-assisted workflows across software development and
+delivery, with an emphasis on practical automation and developer
+productivity.
+
+`FastAPI` · `Docker` · `React` · `Agent Workflows`
+
+### 💸 CashWise.AI
+
+**Personal finance intelligence platform.**
+
+A full-stack application focused on financial data, backend services,
+authentication, and a clean user experience.
+
+`React` · `Node.js` · `PostgreSQL` · `REST APIs`
+
+> Project descriptions are concise snapshots. Explore the repositories
+> for implementation details and current status.
+
+## `experience.log` 💼
+
+**Nemetschek Group --- Associate Software Engineer**
+
+Software engineering, backend/platform interests, and automation.
+
+**Jaguar Land Rover (TBSI) --- Software Intern, Advanced Assisted
+Driving Software Updates**
+
+-   Resolved **300+** MISRA C++ and JLR coding-standard issues.
+-   Refactored legacy modules to improve modularity, readability, and
+    testability.
+-   Automated build and validation workflows using GitLab CI/CD and
+    Bash.
+-   Developed a Python/OpenCV prototype service to process video data
+    and generate structured outputs.
+
+## `milestones` 🏆
+
+-   🥇 Winner --- Innovate Nxt'24 Ideathon
+-   🥈 Runner-up --- The Great Bengaluru Hackathon
+-   🥇 Winner --- SAP HackFest (State Hub + SAP Round)
+-   🤖 Participant --- e-Yantra Robotics Outreach Program, IIT Bombay
+
+## `beyond.the.terminal` 📸
+
+Code is a big part of what I do, but not the whole story.
+
+-   📷 Exploring photography and visual storytelling.
+-   🎬 Experimenting with video editing.
+-   🍳 Trying something new in the kitchen.
+-   🌱 Learning, exploring, and collecting new perspectives.
+
+## `github.telemetry` 📊
+
+::: {align="center"}
+`<img height="165" src="https://github-readme-stats.vercel.app/api?username=ad-shekhar&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&include_all_commits=true" alt="Aditya's GitHub statistics" />`{=html}
+`<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ad-shekhar&theme=tokyonight&hide_border=true" alt="Aditya's GitHub contribution streak" />`{=html}
+
+`<br />`{=html}
+
+`<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ad-shekhar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used programming languages" />`{=html}
+:::
+
+------------------------------------------------------------------------
+
+::: {align="center"}
+### `while(alive) { keep_building(); keep_learning(); }`
+
+**Building something around backend systems, cloud, developer tooling,
+or AI agents? Let's connect.**
+
+[LinkedIn](https://www.linkedin.com/in/aditya-shekhar-662a55311/) ·
+[GitHub](https://github.com/ad-shekhar) ·
+[Email](mailto:aditya.shekhar.2611@gmail.com)
+
+`<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:123B5D,100:0B1020&height=100&section=footer" width="100%" alt="" />`{=html}
+:::
