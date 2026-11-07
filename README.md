@@ -166,7 +166,7 @@ Code is a big part of what I do, but not the whole story.
 
   <!-- Dynamically generated using GitHub Actions + GitHub GraphQL API -->
   <img
-    src="https://raw.githubusercontent.com/ad-shekhar/ad-shekhar/main/assets/total-contributions.svg?v=1794056349"
+    src="https://raw.githubusercontent.com/ad-shekhar/ad-shekhar/main/assets/total-contributions.svg?v=1794088151"
     alt="Aditya Shekhar - Total GitHub Contributions"
     width="75%"
   />
